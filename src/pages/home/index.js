@@ -1,3 +1,4 @@
+import AppRating from "../../components/AppRating";
 import BrandsLove from "../../components/BrandsLove";
 import Header from "../../components/common/Header";
 import CredExperience from "../../components/CredExperience";
@@ -22,6 +23,7 @@ const Home = () => {
       <WindowPeek />
       <CredSecurity />
       <CredStory />
+      <AppRating />
     </>
   );
 };
